@@ -445,12 +445,3 @@ class Temp(Hourly):
         return f"{super().__repr__()},{self.last_day}"
 
 
-
-
-# temp = Temp("temp", "e@acme-machining.com", "45.00", "2023-03-02 12:11:50")
-# # print(type(temp.last_day.strftime('%B %d, %Y %H:%M:%S')))
-# # print(temp.last_day.strftime('%B %d, %Y %H:%M:%S'))
-# # print(type(f"{temp.last_day}"))
-# print(temp.name)
-# print(temp.__repr__())
-# print(type(temp.last_day))
